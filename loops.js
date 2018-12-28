@@ -24,6 +24,7 @@ function incrementVariable() {
 
 function doWhileLoop(array){
   do{
-    
+    incrementVariable();
+    array.splice(i,1);
   }
 }
